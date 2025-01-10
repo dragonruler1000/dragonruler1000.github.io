@@ -190,6 +190,33 @@ h2{
 
 }
 
+#submitButton {
+    display: block;            /* Ensure the container is visible */
+    height: auto;              /* Let the height adjust to its content */
+    margin-top: 10px;          /* Add spacing above the button */
+    text-align: center;        /* Center the button horizontally */
+}
+
+.submitForm {
+    display: inline-block;     /* Ensure button is visible */
+    height: 39.5px;            /* Set the fixed height */
+    padding: 0 20px;           /* Add horizontal padding for spacing */
+    font-family: Alexis;       /* Use the specified font */
+    font-size: 16px;           /* Set font size */
+    color: white;              /* Text color */
+    background-color: #007BFF; /* Button background color */
+    border: none;              /* Remove border */
+    border-radius: 5px;        /* Optional: Add rounded corners */
+    cursor: pointer;           /* Change cursor to pointer on hover */
+    text-align: center;        /* Center text within the button */
+    line-height: 39.5px;       /* Vertically center text */
+}
+
+.submitForm:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+
 #prematch_table{
     font: Alexis;
     text-align: center;
