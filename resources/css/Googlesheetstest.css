@@ -192,7 +192,7 @@ h2{
 
 #submitButton {
     display: block;            /* Ensure the container is visible */
-    height: auto;              /* Let the height adjust to its content */
+    height: 30;              /* Let the height adjust to its content */
     margin-top: 10px;          /* Add spacing above the button */
     text-align: center;        /* Center the button horizontally */
 }
