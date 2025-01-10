@@ -27,13 +27,35 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Place corals",
+    { "name": "Place corals /<br> (auto)",
       "code": "pc",
       "type": "bool"
     },
-    { "name": "How many corals",
+    { "name": "How many corals /<br> if above yes",
       "code": "hmc",
       "type": "number"
+    },
+    { "name": "Place Algae /<br> (auto)",
+      "code": "pa",
+      "type": "bool"
+    },
+    { "name": "How many algae /<br> if above yes",
+      "code": "hma",
+      "type": "number"
+    },
+    { "name": "Average coral score",
+      "code": "acs",
+      "type": "number"
+    },
+    { "name": "Average Algae score",
+      "code": "aas",
+      "type": "number"
+    },
+    { "name": "End game stratagy"
+      "code": "egs"
+      "type": "text"
+      "size": 20,
+      "maxSize" 250
     },
     { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
       "code": "sct",
@@ -49,10 +71,6 @@ var config_data = `
     }
   ],
   "auton": [
-    { "name": "test",
-      "code": "tst",
-      "type": "bool"
-    }
   ],
   "teleop": [
   ],
